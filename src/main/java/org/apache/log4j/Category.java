@@ -105,12 +105,12 @@ public class Category implements AppenderAttachable {
      The assigned level of this category.  The
      <code>level</code> variable need not be assigned a value in
      which case it is inherited form the hierarchy.  */
-  volatile protected Level level;
+  protected Level level;
 
   /**
      The parent of this category. All categories have at least one
      ancestor which is the root category. */
-  volatile protected Category parent;
+  protected Category parent;
 
   /**
      The fully qualified name of the Category class. See also the

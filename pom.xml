@@ -33,8 +33,12 @@ target platform and specify -Dntdll_target=msbuild on the mvn command line.
   <artifactId>log4j</artifactId>
   <packaging>bundle</packaging>
   <name>Apache Log4j</name>
-  <version>1.2.18-SNAPSHOT</version>
-  <description>Apache Log4j 1.2</description>
+  <version>1.2.17-appian-1</version>
+  <description>
+    Apache Log4j 1.2.17 - Appian Performance Patch
+    Source branch: https://github.com/appian/log4j/tree/appian_1_2_17
+    JIRA ticket: AN-125897
+  </description>
   <url>http://logging.apache.org/log4j/1.2/</url>
   <issueManagement>
     <system>Bugzilla</system>
